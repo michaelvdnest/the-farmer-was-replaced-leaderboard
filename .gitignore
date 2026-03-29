@@ -188,6 +188,22 @@ cython_debug/
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
+# Ignore all VSCode configuration files
+vscode/*
+
+# Allow specific configuration files if needed
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Ignore workspace files
+!*.code-workspace
+
+# Ignore built Visual Studio Code extensions
+*.vsix
+
 # Ruff stuff:
 .ruff_cache/
 
@@ -205,3 +221,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
